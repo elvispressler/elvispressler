@@ -5,29 +5,6 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
-
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-
-const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
-];
-
 class HomeIndex extends React.Component {
 
     constructor() {
@@ -88,49 +65,51 @@ class HomeIndex extends React.Component {
                 <div id="main">
 
                     <section id="one">
-                        <header className="major">
+
+                        <header className="mayjor">
                             <h1>Erich Florow</h1>
                         </header>
                         <p>IT Service Manager</p>
 
-                    </section>
+                      {/*<ul className="actions">
+                        <li><a href="#" className="button">for money</a></li>
+                       </ul>*/}
 
-                    <section id="two">
+                        <p>Application Support 24/7 MES System Gefasoft</p>
+                        <p>Problem-,  Service-, Development,  Releasemanagement ITIL</p>
+                        <p>Transition Jira Service Desk, Konfiguration, Administration, Processmanagement</p>
+                        <p>3rd level Support</p>
+                        <p>Scrum Master</p>
 
-                    <ul className="actions">
-                        <li><a href="#" className="button">Learn More</a></li>
-                    </ul>
-                        <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
-                            src,
-                            thumbnail,
-                            caption,
-                            description
-                        }))} />
-
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
                     </section>
 
                     <section id="three">
-                        <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        
+                        <p>Literatur Philosophie Psychologie Sport</p>
+                        <p>ITSM Systeme BMC-Remedy Jira Kayako</p>
+                        <p>gatsby react WebDesign Kunst</p>
+                        <p>Windows Linux AIX Oracle PostgreSQL shell log-analyse</p>
+                    </section>
+
+
+                    <section id="four">
+                        <h2>Kontakt zu mir</h2>
+
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <form method="post" action="#">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                                        <div className="12u"><textarea name="message" id="message" placeholder="Nachricht" rows="4"></textarea></div>
                                     </div>
                                 </form>
                                 <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
+                                    <li><input type="submit" value="Senden" /></li>
                                 </ul>
                             </div>
-                            <div className="4u 12u$(small)">
+                            {/*}<div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
@@ -147,7 +126,7 @@ class HomeIndex extends React.Component {
                                         <a href="#">hello@untitled.tld</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div>*/}
                         </div>
                     </section>
 
