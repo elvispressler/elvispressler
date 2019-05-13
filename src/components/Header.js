@@ -9,7 +9,7 @@ class Header extends React.Component {
             <header id="header">
                 <div className="inner">
                     <h1>
-                      <strong>...</strong>
+                      <strong></strong>
                     </h1>
                 </div>
                 <Footer />

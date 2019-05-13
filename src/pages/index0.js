@@ -69,8 +69,11 @@ class HomeIndex extends React.Component {
                         <header className="mayjor">
                             <h1>Erich Florow</h1>
                         </header>
-                        <h6>IT Service Manager</h6>
+                        <p>IT Service Manager</p>
 
+                      {/*<ul className="actions">
+                        <li><a href="#" className="button">for money</a></li>
+                       </ul>*/}
 
                         <p>Application Support 24/7 MES System Gefasoft</p>
                         <p>Problem-,  Service-, Development,  Releasemanagement ITIL</p>
@@ -93,22 +96,21 @@ class HomeIndex extends React.Component {
 
 
                     <section id="four">
-                        <h2>erich.florow@gmail.com</h2>
+                        <h2>Kontakt zu mir</h2>
 
-                        <div id="footer">
-                            <div className="inner">
-                                <ul className="icons">
-                                    <li><a href="https://www.linkedin.com/in/erich-florow-68777571" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
-                                    <li><a href="https://twitter.com/ultracrass" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-                                </ul>
-                                <ul className="copyright">
-                                    <li>shaped by elvispressler with <a href="https://www.gatsbyjs.org/" target="_blank">gatsby.js</a></li>
-                                    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-
+                                      <div className="row">
+                                         <div className="8u 12u$(small)">
+                                             <form method="post" action="https://formspree.io/email@domain.tld">
+                                               <div className="row uniform 50%">
+                                                 <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                                                 <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                                                 <div className="12u"><textarea name="message" id="message" placeholder="Nachricht" rows="4"></textarea></div>
+                                              </div>
+                                             </form>
+                                               <ul className="actions">
+                                               <li><input type="submit" value="Senden" /></li>
+                                               </ul>
+                                         </div>
 
                             {/*}<div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
@@ -128,7 +130,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                 </ul>
                             </div>{*/}
-
+                        </div>
                     </section>
 
                 </div>
