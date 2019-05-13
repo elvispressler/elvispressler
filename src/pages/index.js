@@ -87,9 +87,11 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
 
-                        <p>Literatur Philosophie Psychologie Sport</p>
-                        <p>gatsby react WebDesign Kunst</p>
                         <p>Windows Linux AIX Oracle PostgreSQL shell log-analyse</p>
+                        <p>gatsby react Semantic Bulma</p>
+                        <spam>
+                        </spam>
+                        <p>Literatur Philosophie Psychologie Sport WebDesign Kunst</p>
                     </section>
 
 
@@ -98,7 +100,7 @@ class HomeIndex extends React.Component {
 
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <form method="post" action="https://formspree.io/email@domain.tld" method="POST"/>
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>

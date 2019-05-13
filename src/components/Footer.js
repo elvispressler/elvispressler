@@ -10,7 +10,7 @@ class Footer extends React.Component {
                         <li><a href="https://twitter.com/ultracrass" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>shaped by elvispressler</li>
+                        <li>shaped by elvispressler with gatsby.js</li>
                         <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
                 </div>
