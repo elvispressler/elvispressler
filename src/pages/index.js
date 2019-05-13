@@ -79,15 +79,15 @@ class HomeIndex extends React.Component {
                         <p>Problem-,  Service-, Development,  Releasemanagement ITIL</p>
                         <p>Transition Jira Service Desk, Konfiguration, Administration, Processmanagement</p>
                         <p>3rd level Support</p>
+                        <p>ITSM Systeme BMC-Remedy Jira Kayako ServiceNow</p>
                         <p>Scrum Master</p>
 
 
                     </section>
 
                     <section id="three">
-                        
+
                         <p>Literatur Philosophie Psychologie Sport</p>
-                        <p>ITSM Systeme BMC-Remedy Jira Kayako</p>
                         <p>gatsby react WebDesign Kunst</p>
                         <p>Windows Linux AIX Oracle PostgreSQL shell log-analyse</p>
                     </section>
