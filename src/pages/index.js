@@ -52,8 +52,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "elvispresser"
-        const siteDescription = "Site description"
+        const siteTitle = "Erich Florow"
+        const siteDescription = "Erich Florow"
 
         return (
             <Layout>
@@ -66,17 +66,17 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
 
-                        <header className="mayjor">
+                        <header className="major">
                             <h1>Erich Florow</h1>
                         </header>
                         <h6>IT Service Manager</h6>
 
 
-                        <p>Application Support 24/7 MES System Gefasoft</p>
+                        <p>Application Management 24/7 MES System Gefasoft</p>
                         <p>Problem-,  Service-, Development,  Releasemanagement ITIL</p>
                         <p>Transition Jira Service Desk, Konfiguration, Administration, Processmanagement</p>
                         <p>3rd level Support</p>
-                        <p>ITSM Systeme BMC-Remedy Jira Kayako ServiceNow</p>
+                        <p>ITSM Systeme BMC-Remedy (BMW) ServiceNow (Audi, VW, MAN) Jira (BMW, VW) Kayako </p>
                         <p>Scrum Master</p>
 
 

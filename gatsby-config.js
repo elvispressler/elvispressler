@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "elvispresser",
+    title: "Erich Florow",
     author: "Hunter Chang, elvispressler",
     description: "presentation of elvis"
   },
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/ef.png', // This path is relative to the root of the site.
       },
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Footer from './Footer'
+
 
 
 class Header extends React.Component {
@@ -12,7 +12,7 @@ class Header extends React.Component {
                       <strong></strong>
                     </h1>
                 </div>
-                <Footer />
+
             </header>
         )
     }
