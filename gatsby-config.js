@@ -17,9 +17,18 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/ef.png', // This path is relative to the root of the site.
       },
-
-
     },
+
+    {
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "UA-140163208-1",
+      head: true,
+    },
+  },
+
+
+
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
