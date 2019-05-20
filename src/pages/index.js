@@ -5,6 +5,9 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
+import {useSpring, animated} from 'react-spring'
+
+
 class HomeIndex extends React.Component {
 
     constructor() {
@@ -55,6 +58,7 @@ class HomeIndex extends React.Component {
         const siteTitle = "Erich Florow"
         const siteDescription = "Erich Florow"
 
+
         return (
             <Layout>
                 <Helmet>
@@ -62,20 +66,22 @@ class HomeIndex extends React.Component {
                         <meta name="description" content={siteDescription} />
                 </Helmet>
 
+
                 <div id="main">
 
                     <section id="one">
 
                         <header className="major">
-                            <h1>Erich Florow</h1>
+
+                        <h1>Erich Florow</h1>
                         </header>
-                        <h6>IT Service Manager</h6>
+                          <h6>IT Service Manager</h6>
 
 
-                        <p>Application Management 24/7 MES System Gefasoft</p>
+                        <p>Application Management 24/7 MES System Gefasoft <a href="https://www.gefasoft.de/" target="_blank">Gefasoft GmbH</a></p>
                         <p>Problem-,  Service-, Development,  Releasemanagement ITIL</p>
                         <p>Transition Jira Service Desk, Konfiguration, Administration, Processmanagement</p>
-                        <p>3rd level Support</p>
+                        <p>2nd 3rd level Support</p>
                         <p>ITSM Systeme BMC-Remedy (BMW) ServiceNow (Audi, VW, MAN) Jira (BMW, VW) Kayako </p>
                         <p>Scrum Master</p>
 

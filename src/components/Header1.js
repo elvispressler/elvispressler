@@ -1,9 +1,12 @@
 import React from 'react'
 
-class Header extends React.Component {
+
+
+
+class Header1 extends React.Component {
     render() {
         return (
-            <header id="header">
+            <header id="header1">
                 <div className="inner">
                     <h1>
                       <strong></strong>
@@ -15,4 +18,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header
+export default Header1
