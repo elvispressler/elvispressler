@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
+
 
 import {useSpring, animated} from 'react-spring'
 
