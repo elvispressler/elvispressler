@@ -42,13 +42,15 @@
 	));
 
 	$size-header-width: 35%;
-	$size-header-width1: 70%;
+	$size-header-width1: 100%;
 	$size-header-pad: 4em;
 
 /* Basic */
 
 	body {
-		background: _palette(bg);
+		
+		background-image: linear-gradient(to right, #838383 , #4a4a4a);
+		
 
 		&.is-loading {
 			*, *:before, *:after {
@@ -211,6 +213,7 @@
 	}
 
 	header {
+
 		p {
 			color: _palette(fg-light);
 			position: relative;
@@ -904,7 +907,7 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent2, bg);
+		background-color: _palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
 		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
 		background-position:	top left,							top left;
@@ -1055,6 +1058,7 @@
 			border-top: solid 2px _palette(border);
 			margin: $size-header-pad 0 0 0;
 			padding: $size-header-pad 0 0 0;
+			
 
 			&:first-child {
 				border-top: 0;

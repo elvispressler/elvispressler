@@ -4,55 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 
-
-import {useSpring, animated} from 'react-spring'
-
-
 class HomeIndex extends React.Component {
 
-    constructor() {
-        super();
-
-        this.state = {
-            lightboxIsOpen: false,
-            currentImage: 0,
-        };
-
-        this.closeLightbox = this.closeLightbox.bind(this);
-        this.gotoNext = this.gotoNext.bind(this);
-        this.gotoPrevious = this.gotoPrevious.bind(this);
-        this.openLightbox = this.openLightbox.bind(this);
-        this.handleClickImage = this.handleClickImage.bind(this);
-    }
-
-    openLightbox (index, event) {
-        event.preventDefault();
-        this.setState({
-            currentImage: index,
-            lightboxIsOpen: true,
-        });
-    }
-    closeLightbox () {
-        this.setState({
-            currentImage: 0,
-            lightboxIsOpen: false,
-        });
-    }
-    gotoPrevious () {
-        this.setState({
-            currentImage: this.state.currentImage - 1,
-        });
-    }
-    gotoNext () {
-        this.setState({
-            currentImage: this.state.currentImage + 1,
-        });
-    }
-    handleClickImage () {
-        if (this.state.currentImage === this.props.images.length - 1) return;
-
-        this.gotoNext();
-    }
+    
 
     render() {
         const siteTitle = "Erich Florow"
@@ -78,7 +32,7 @@ class HomeIndex extends React.Component {
                           <h6>IT Service Manager</h6>
 
 
-                        <p>Application Management 24/7 MES System Gefasoft <a href="https://www.gefasoft.de/" target="_blank">Gefasoft GmbH</a></p>
+                        <p>Application Management 24/7 MES System Gefasoft <a href="https://www.gefasoft.de/" >Gefasoft GmbH</a></p>
                         <p>Problem-,  Service-, Development,  Releasemanagement ITIL</p>
                         <p>Transition Jira Service Desk, Konfiguration, Administration, Processmanagement</p>
                         <p>2nd 3rd level Support</p>
@@ -104,12 +58,12 @@ class HomeIndex extends React.Component {
                         <div id="footer">
                             <div className="inner">
                                 <ul className="icons">
-                                    <li><a href="https://www.linkedin.com/in/erich-florow-68777571" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
-                                    <li><a href="https://twitter.com/ultracrass" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/erich-florow-68777571" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                                    <li><a href="https://twitter.com/ultracrass" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
                                 </ul>
                                 <ul className="copyright">
-                                    <li>shaped by elvispressler with <a href="https://www.gatsbyjs.org/" target="_blank">gatsby.js</a></li>
-                                    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+                                    <li>shaped by elvispressler with <a href="https://www.gatsbyjs.org/" >gatsby.js</a></li>
+                                    <li>Design: <a href="http://html5up.net" >HTML5 UP</a></li>
                                 </ul>
                             </div>
                         </div>
